@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Revou</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            background-color: #1E1E1E;
+            font-family: "Poppins", sans-serif;
+        }
+        a , h2 , p , li {
+            color : white
+        }
+        ol li{
+            color: #FEE021;
+            font-weight: bold;
+        }
+        ul li{
+            color: white;
+            font-weight: 400;
+        }
+        a{
+            font-weight:bold ;
+        }
+        .header-section{
+            background-color: black;
+            box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+            padding: 20px
+        }
+        .flex-row{
+            display: flex;
+            flex-direction: row;
+        }
+        .flex-space-between{
+            display: flex;
+            justify-content: space-between;
+        }
+        .flex-space-arround{
+            display:flex;
+            justify-content: space-around;
+        }
+        .flex-center{
+            display: flex;
+            justify-content: center;
+        }
+        .detail-headline{
+            height: fit-content; 
+            margin: auto 0;
+        }
+        .line{
+            width: 300px;
+            height: 8px;
+            background-color: #595EDA;
+            margin: auto;
+        }
+        .box-card{
+           width: 400px; 
+           background-color: white;
+           padding: 30px;
+           border-radius: 15px;
+           margin: auto;
+           box-shadow: 15px 15px 30px #595EDA;
+
+        }
+        input, textarea{
+            width:100%;
+            border: 0px;
+            outline: none;
+        }
+        .form-input{
+            border: solid 1px #B3B3B3;
+            padding:8px;
+            border-radius: 10px; 
+            margin-bottom: 20px;
+        }
+        textarea{
+            resize:none ;
+        }
+        button{
+            width: 100%;
+            background-color: #595EDA ;
+            border: 0px;
+            padding: 13px 0;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        .fixed-position{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-position" >
+        <div class="header-section flex-space-between">
+            <div class="logo-header">
+                <img alt="Logo" src="./revou-logo.png" width="30">
+            </div>
+            <div class="nav-header">
+                <a href="#description">DESKRIPSI</a>
+                <a href="#experience" style="margin:0px 30px">PENGALAMAN</a>
+                <a href="#contact">HUBUNGI SAYA</a>
+            </div>
+        </div>
+    </div>
+    <div style="padding:80px">
+        <div class="headline-section flex-space-between">
+            <div class="detail-headline" style="height: fit-content; margin: auto 0;">
+                <h2>Selya Fajrina</h2>
+                <p>Software Enginer at RevoU</p>
+                <div>
+    
+                </div>
+            </div>
+            <div class="avatar-headline">
+                <img src="./revou-logo.png" alt="Avatar">
+            </div>
+        </div>
+        <div id="description" class="description-section flex-center">
+            <p style="text-align: center; width:80%;">Hai aku adalah student revou yang sudah memiliki pengamalan sebagai software enginer selama 1 bulan di revou. Aku berpengalaman dalam memberikan digital solusi baik dalam desain atau pengembangan sebuah aplikasi. Aku memiliki pribadi yang bertanggungjawab, menyukai tantangan, disiplin, selalu ingin tahu hal baru, dan adaptif terhadap perubahan yang ada di lingkunganku</p>
+        </div> 
+        <div id="experience" class="experience-section">
+            <div class="title">
+                <h2 style="text-align: center;">PENGALAMAN</h2>
+                <div class="line"> </div>
+            </div>
+        </div>
+            <div class="detail-experience">
+                <ol>
+                    <div>
+                        <li>Revou</li>
+                        <p>Telah berpengalaman selama 1 bulan menjadi seorang software engineer di revou. Memiliki kemampuan dalam pengembangan website, baik dari sisi backend maupun frontend. Terbiasa menggunakan beberapa framework dari berbagai Bahasa pemrograman. Framework yang digunakan untuk backend biasanya adalah Galang dan Nest.js. Sedangkan untuk sisi frontend biasanya adalah React.js, Vue.js, dan Angular.js. Memiliki kemampuan dan pemahaman yang cukup dalam pembuatan design database:</p>
+                        <ul>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <li>Revou</li>
+                        <p>Telah berpengalaman selama 1 bulan menjadi seorang software engineer di revou. Memiliki kemampuan dalam pengembangan website, baik dari sisi backend maupun frontend. Terbiasa menggunakan beberapa framework dari berbagai Bahasa pemrograman. Framework yang digunakan untuk backend biasanya adalah Galang dan Nest.js. Sedangkan untuk sisi frontend biasanya adalah React.js, Vue.js, dan Angular.js. Memiliki kemampuan dan pemahaman yang cukup dalam pembuatan design database:</p>
+                        <ul>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li>
+                            <li>Berhasil menyelesaikan pembuatan aplikasi internal</li> 
+                        </ul>
+                    </div> 
+                </ol>
+            </div>
+        <div id="contact" class="contact-section">
+                <div class="title">
+                    <h2 style="text-align: center;">HUBUNGI SAYA</h2>
+                    <div class="line"></div>
+                </div>
+            <div>
+                <div class="box-card">
+                    <div class="form-input">
+                        <input placeholder="Nama">
+                    </div>
+                    <div class="form-input">
+                        <input placeholder="Email">
+                    </div>
+                    <div class="form-input">
+                        <textarea placeholder="Pesan" ></textarea>
+                    </div>
+                    <button>KIRIM</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

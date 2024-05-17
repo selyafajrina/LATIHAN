@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HALAMAN SELYA</title>
+    <link rel="icon" href="revou-logo.png">
+    <meta name="title" content="portofolio website" />
+    <meta property="og:type" content="website" />
+    <meta name="description" content="halaman home description">
+    <meta property="og:image" content="./revou-logo.png">
+    <link rel="stylesheet" type="text/css" href="./style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <style>
+    body{
+    background-color: #05060F;
+    color: #E6E9FB;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0 100px;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    .planet{
+    width: 888px;
+    @media (max-width: 600px)
+        {
+        display: none;
+         }
+    }
+    h1{
+    font-size: 50px;
+    color: white;  
+    @media (min-width: 700px)
+        {
+        font-size: 50px;
+        color: white;
+        }
+    }
+    .avatar{
+    width: 25px;
+        }
+
+    .header-section{
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    }   
+    .social-image img{
+    width: 15px
+    }
+
+    .social-image span{
+    color: #E6E9FB;
+    font-size: 15px;
+    }
+
+    .social-image{
+    background-color: #5959592e;
+    padding: 8px;
+    padding-bottom: 12px;
+    border-radius: 15px;
+    margin-right: 10px;
+    }
+
+    .navigation span{
+    padding: 10px;  
+    }
+
+    .first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+
+
+    table, th, td{
+    border: white solid 1px;
+    }
+
+    th {
+    font-size: 25px;
+    }
+    </style>
+</head>
+<body style=" ">
+
+    <div class="header-section">
+        <div class="navigation">
+            <img src="./Avatar2.png" alt="avatar" class="avatar" style="vertical-align: middle;">
+            <span style="vertical-align: middle;">Home</span>
+            <span style="vertical-align: middle;">Experiences</span>
+            <span style="vertical-align: middle;">About Me</span>  
+        </div>
+        <div>
+            <a href="https://wa.me/6285875059830">
+                <div style="display: inline-block;" class="social-image">
+                  <img src="./Whatsapp.png" alt="Whatsapp" style="vertical-align: middle;">
+                  <span style="vertical-align: middle;">Whatsapp</span>
+                </div>
+              </a>
+              <div style="display: inline-block;" class="social-image">
+                  <img src="./Discord.png" alt="Discord" style="vertical-align: middle;">
+                  <span style="vertical-align: middle;">selyafajrina</span>
+              </div>
+              <a href="https://www.linkedin.com/in/selya-fajrina-3507242a4/" target="_blank">
+                  <div style="display: inline-block;" class="social-image">
+                      <img src="./LinkedIn.png" alt="LinkedIn" style="vertical-align: middle;">
+                      <span style="vertical-align: middle;">LinkedIn</span>
+                  </div>
+              </a>
+              <a href="mailto: fajrinaaaselyaaa@gmail.com">
+                  <div style="display: inline-block; color: #E6E9FB;">
+                      <span style="vertical-align: middle;">
+                          Contact Me
+                      </span>
+                  </div>
+              </a>
+        </div>
+    </div>
+    <div class="first-section">
+        <div class="header-copy">
+            <div>
+                <span>Hi, I'm Selya Fajrina 👋🏻</span>
+                <h1>
+                    A Full-Stack Engineer, and <br>
+                    professional master of Ctrl+C and Ctrl+V.
+                </h1>
+            </div>
+        </div>
+        <div style="position: relative; right: -200px; width: 40%;">
+            <img class="planet" src="./Orb planet.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="experience-section">
+        <h1 align="center">
+            Contact me
+        </h1>
+        <div>
+            <form action="/submit.php" method="post">
+                <div style="display: flex;">
+                    <label for="name">name</label>
+                    <input type="text" name="name" id="name" placeholder="please input your name" minlength="2" required
+                        oninvalid="this.setCustomValidity('minimal 2 char bos!')">
+                </div>
+
+                <div>
+                    <label for="name">phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="please input your phone"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+
+                <div>
+                    <label for="name">message</label>
+                    <textarea name="message" id="">message</textarea>
+                </div>
+                <button type="submit" name="" id="">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <div>
+       
+        <h1 align="center">
+            table
+        </h1>
+
+        <table border="2">
+        <tr>
+            <th>name</th>
+            <th>phone</th>
+            <th>note</th>
+        </tr>
+        <tr>
+            <td>John doe</td>
+            <td>0823657123</td>
+            <td>test</td>
+        </tr>
+        </table>
+    </div>
+
+</body>
+</html>

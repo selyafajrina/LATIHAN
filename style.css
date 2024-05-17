@@ -1,0 +1,114 @@
+body{
+    background-color: #1E1E1E;
+    font-family: "Poppins", sans-serif;
+}
+a , h2 , p , li {
+    color : white
+}
+ol li{
+    color: #FEE021;
+    font-weight: bold;
+}
+ul li{
+    color: white;
+    font-weight: 400;
+}
+a{
+    font-weight:bold ;
+}
+.header-section{
+    background-color: black;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+    padding: 20px
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-space-arround{
+    display:flex;
+    justify-content: space-around;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.detail-headline{
+    height: fit-content; 
+    margin: auto 0;
+}
+.line{
+    width: 300px;
+    height: 8px;
+    background-color: #595EDA;
+    margin: auto;
+}
+.box-card{
+   width: 400px; 
+   background-color: white;
+   padding: 30px;
+   border-radius: 15px;
+   margin: auto;
+   box-shadow: 15px 15px 30px #595EDA;
+
+}
+input, textarea{
+    width:100%;
+    border: 0px;
+    outline: none;
+}
+.form-input{
+    border: solid 1px #B3B3B3;
+    padding:8px;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+textarea{
+    resize:none ;
+}
+button{
+    width: 100%;
+    background-color: #595EDA ;
+    border: 0px;
+    padding: 13px 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.fixed-position{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+}
+
+.title-form{
+    text-align: center;
+}
+.form-box{
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 15px 15px 30px #595EDA;
+}
+.text-form{
+    color: #1E1E1E;
+}
+
+.form-input{
+    border: solid 1.5px #1E1E1E;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.name-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
